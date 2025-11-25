@@ -15,7 +15,7 @@ void hanoi(int n, char from, char to, char aux) {
 int main() {
     int n;
     while (cin >> n) {
-     hanoi(n,'a','b','c');   
+        hanoi(n, 'A', 'C', 'B');
     }
     return 0;
 }
